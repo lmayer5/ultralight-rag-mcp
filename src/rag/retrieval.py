@@ -5,7 +5,7 @@ RAG Pipeline - Connects LLM with retrieval for question answering.
 from typing import Optional, Dict, Any
 
 from langchain_community.llms import Ollama
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 from langchain_core.prompts import PromptTemplate
 
 from .vectorstore import VectorStoreManager
