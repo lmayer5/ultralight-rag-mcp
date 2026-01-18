@@ -24,8 +24,8 @@ A lightweight, fully local "Second Brain" agent system combining RAG, multi-agen
 Download from [ollama.com](https://ollama.com) and install.
 
 ```bash
-# Pull Mistral 7B model
-ollama pull mistral
+# Pull Ministral 3B - lightweight model for laptops
+ollama pull ministral-3b
 ```
 
 ### 2. Set Up Python Environment
