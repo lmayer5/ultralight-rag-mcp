@@ -12,3 +12,10 @@ pydantic-ai>=0.0.1
 
 # Utilities
 python-dotenv>=1.0.0
+
+# GUI Application
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# Build Tools
+pyinstaller>=6.0.0

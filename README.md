@@ -25,7 +25,7 @@ Download from [ollama.com](https://ollama.com) and install.
 
 ```bash
 # Pull Ministral 3B - lightweight model for laptops
-ollama pull ministral-3b
+ollama pull ministral-3:3b
 ```
 
 ### 2. Set Up Python Environment
@@ -47,9 +47,34 @@ Place your documents (markdown, text, PDF) in `data/documents/`.
 
 ### 4. Run
 
+**Command Line Interface:**
 ```bash
 py src/main.py
 ```
+
+**Desktop GUI Application:**
+```bash
+py src/gui_app.py
+```
+
+### 5. Build Standalone .exe (Optional)
+
+```bash
+py build_exe.py
+```
+
+This creates `dist/SecondBrain.exe` - a standalone executable that can run without Python installed.
+
+## Desktop GUI Features
+
+The GUI provides a modern dark-themed interface with:
+
+- **🤖 Model Selector** - Switch between Ollama models on the fly
+- **📚 File Manager** - Upload and manage documents (drag & drop supported)
+- **💬 Chat Panel** - Streaming responses with conversation history
+- **⚙️ Settings** - Adjust temperature, token limits, and retrieval settings
+
+> **Tip for Laptops**: Use smaller models like `phi:2.7b`, `gemma:2b`, or `tinyllama:1.1b` for faster responses without a GPU.
 
 ## Project Structure
 

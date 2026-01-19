@@ -1,7 +1,7 @@
 {
   "llm": {
     "provider": "ollama",
-    "model": "ministral-3b",
+    "model": "ministral-3:3b",
     "context_window": 4096,
     "max_tokens": 512,
     "temperature": 0.3
